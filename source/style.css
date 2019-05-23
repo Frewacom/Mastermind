@@ -1,0 +1,189 @@
+*
+{
+    font-family: "Segoe UI";
+    font-size: 15px;
+    color: white;
+}
+
+QWidget[accessibleName="MainWindow"]
+{
+    background-color: #262626;
+}
+
+QMenu
+{
+    color: white;
+    background-color: #262626;
+    font-size: 14px;
+}
+
+QFrame
+{
+    height: 25px;
+    margin: 5px 0px 5px 0px;
+    border: none;
+}
+
+QFrame[accessibleName="GameOverBox"]
+{
+    padding: 50px 10px;
+    border-radius: 2px;
+}
+
+QFrame[accessibleName="Header"]
+{
+    background-color: #b31217;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 20px;
+}
+
+QFrame[accessibleName="ControlsFrame"]
+{
+    margin-top: 0px;
+    background-color: #b71c1c;
+}
+
+QFrame[accessibleName="FooterFrame"]
+{
+    background-color: #111111;
+    margin-bottom: 0px;
+}
+
+QFrame[accessibleName="AttemptFrame"]
+{
+    background-color: #111111;
+    padding: 0px 20px;
+    margin-bottom: 0px;
+    border-top: 1px solid #161616;
+}
+
+QFrame[accessibleName="LampFrame"]
+{
+    border-radius: 10px;
+}
+
+QPushButton
+{
+    height: 25px;
+    background: #b31217;
+    border: none;
+    padding: 5px 15px;
+    margin: 5px 5px 5px 0px;
+    border-radius: 2px;
+}
+
+QPushButton[accessibleName="LobbyButton"],
+QPushButton[accessibleName="LobbyButtonCenter"]
+{
+    margin: 0px;
+    padding: 10px 25px;
+    border-top: 1px solid #7c090e;
+    border-bottom: 1px solid #7c090e;
+    border-radius: 0px;
+}
+
+QPushButton[accessibleName="LobbyButtonCenter"]
+{
+    border: 1px solid #7c090e;
+}
+
+QPushButton:hover
+{
+    background-color: #9b0f13;
+}
+
+QPushButton[accessibleName="ColorBox"],
+QPushButton[accessibleName="ColorBoxFinished"]
+{
+    height: 25px;
+    padding: 5px 20px;
+    margin: 5px 5px 5px 0px;
+}
+
+QPushButton[accessibleName="ColorBoxFinished"]
+{
+    width: 55px;
+    background-color: #424242;
+    margin-right: 0px;
+}
+
+QPushButton[accessibleName="OutputButton"]
+{
+    height: 15px;
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-right: 0px;
+    font-size: 14px;
+}
+
+QPushButton[accessibleName="ButtonSmall"]
+{
+    height: 17px;
+    padding: 10px;
+}
+
+QPushButton[accessibleName="FooterButton"]
+{
+    background-color: transparent;
+    padding: 5px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+QComboBox
+{
+    background-color: #1c1c1c;
+    color: white;
+    padding: 10px;
+}
+
+QComboBox:item:checked
+{
+    background-color: #0f0f0f;
+}
+
+QComboBox QAbstractItemView
+{
+    background-color: #0f0f0f;
+    color: white;
+    selection-background-color: gray;
+    margin: 0px;
+}
+
+QTextEdit
+{
+    border: none;
+    margin: 0px 10px;
+    color: white;
+    border: 10px solid #1c1c1c;
+    font-size: 14px;
+    background-color: #1c1c1c;
+    font-family: "Yu Gothic UI Semibold";
+}
+
+QLineEdit
+{
+    height: 25px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    background-color: #1c1c1c;
+    font-family: "Yu Gothic UI Semibold";
+}
+
+QLabel[accessibleName="Title"]
+{
+    color: white;
+    font-size: 45px;
+    font-family: "Yu Gothic Light";
+}
+
+QLabel[accessibleName="About"]
+{
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+}
